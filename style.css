@@ -7,7 +7,7 @@ h1 {
   font-size: 50px;
 }
 
-.name-color {
+.orange-color {
   color: orange;
 }
 
@@ -34,19 +34,16 @@ section {
 
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(45deg, orange tomato);
+  background-image: linear-gradient(45deg, orange, tomato);
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 500;
   color: white;
 }
 
-.link-button:hover,
-.link-button:active {
-  background-color: #4ef372c2;
-  color: rgb(0, 0, 0);
+h2 {
+  font-size: 40px;
 }
-
 .dream-area {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
@@ -65,15 +62,42 @@ section {
 
 .button2 {
   text-decoration: none;
-  background-image: linear-gradient(45deg, orange tomato);
+  background-image: linear-gradient(45deg, orange, tomato);
   padding: 10px 40px;
   border-radius: 5px;
   font-weight: 500;
   color: white;
 }
 
-.button2:hover,
-.button2:active {
-  background-color: #4ef372c2;
-  color: rgb(0, 0, 0);
+p {
+  text-align: justify;
+}
+
+.experiences-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.single-experiences {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 90%;
+  background-color: white;
+}
+
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
 }
